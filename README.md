@@ -109,12 +109,26 @@ Metrics implemented:
 
 ---
 
-# API Serving
+## API Serving
 
-Run the API:
+Run the System/API:
+
+#Mac / Linux
 
 ```
-python api/app.py
+chmod +x run.sh
+./run.sh
+```
+
+Example request:
+
+```
+http://127.0.0.1:5000/recommend?user_id=1&top_k=5
+```
+#Windows
+
+```
+./run.bat
 ```
 
 Example request:
